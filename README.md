@@ -85,7 +85,6 @@ dataset:
 
 ```
 git clone ...
-cd FedFitTech
 ```
 
 > \[!TIP\]
