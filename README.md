@@ -27,17 +27,13 @@ Dataset:
 **1.1 What's implemented:** <p align="justify">  The code in this directory provides the FedFitTech baseline, enables reproducible experiments and benchmarking of Fitness Tracking in the Federated Learning setting, as well as a case study of FedFitTech. </p>
 
 
-**1.2 Dataset:** <p align="justify">  The [WEAR](https://mariusbock.github.io/wear/) (Wearable and Egocentric Activity Recognition) dataset includes labeled activities performed by 22 participants, categorized into jogging (normal, rotating arms, skipping, side steps, butt-kicks), stretching (triceps, lunging, shoulders, hamstrings, lumbar rotation), and strength exercises (push-ups, push-ups (complex), sit-ups, sit-ups (complex), burpees, lunges, lunges (complex), bench dips). It also features a NULL label for unlabeled periods. Collected across multiple outdoor locations with varying conditions, the dataset aligns with real-world trends and is ideal for fitness tracking due to its diverse participants, classes, and labeled data. Two participants were re-recorded in a different season and environment,resulting in 24 subjects.These two additional subjects are treated as separate devices for the same individuals to reflect real-world FitTech scenarios,thus setting the number of clients to 24. </p>
+**1.2 Dataset:** <p align="justify"> The [WEAR](https://mariusbock.github.io/wear/) (Wearable and Egocentric Activity Recognition) dataset includes 22 participants, 24 subjects, 18 activities + NULL class. The activities are grouped into three categories: 
 
+* **Jogging** (5 activities: normal, rotating arms, skipping, sidesteps, butt-kicks).
 
-The [WEAR](https://mariusbock.github.io/wear/) (Wearable and Egocentric Activity Recognition) dataset includes 22 participants, 24 subjects, 18 activities + NULL class. The activities are grouped into three categories: 
+* **Stretching** (5 activities: triceps, lunging, shoulders, hamstrings, lumbar rotation). 
 
-* Jogging (5 activities: normal, rotating arms, skipping, sidesteps, butt-kicks).
-
-* Stretching (5 activities: triceps, lunging, shoulders, hamstrings, lumbar rotation). 
-
-* Strength (8 activities: push-ups, push-ups (complex), sit-ups, sit-ups (complex), burpees, lunges, lunges (complex), bench dips).
-
+* **Strength** (8 activities: push-ups, push-ups (complex), sit-ups, sit-ups (complex), burpees, lunges, lunges (complex), bench dips). </p>
 
 
 
