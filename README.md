@@ -62,7 +62,7 @@ dataset:
 
 | Description | Value |
 | --------------- | --------- |
-|  Min_available_clients |  24     |
+|  Min available clients |  24     |
 |Learning rate| 0.001|
 |Local Epoch| 1 |
 | Batch size | 32 |
@@ -73,7 +73,8 @@ dataset:
 | Number of Filters | 24 |
 | Preference for NULL | Yes |
 | Fraction fit| 1.0 |
-|Evaluate fit | 1.0 |
+|Fraction Evaluate | 1.0 |
+| Early Stopping | True or 1|
 
 
 ## 3 Envirnnomental Setup
