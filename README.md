@@ -82,7 +82,7 @@ Dataset:
 | Preference for NULL | True |
 | Fraction fit| 1.0 |
 | Fraction Evaluate | 1.0 |
-| Early Stopping | True |
+| Early Stopping | False |
 
 
 ## 3 Envirnnomental Setup
