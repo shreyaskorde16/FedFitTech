@@ -157,10 +157,10 @@ FedFitTech/
 │   ├── my_strategy.py                      # Defines custom strategy for ServerApp
 │   ├── server_app.py                       # Defines ServerApp
 │   └── task.py                                          
+├── pyproject.toml                          # Project metadata like dependencies and configs
+├── requirements.txt                        # Other Requirements for the project
 ├── LICENSE
-├── README.md
-├── pyproject.toml                              # Project metadata like dependencies and configs
-└── requirements.txt                            # Other Requirements for the project
+└── README.md
 ```
 
 ## 5 Runing Experiment
