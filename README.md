@@ -141,25 +141,26 @@ pip install -r requirements.txt
 
 
 ```shell
-new-flwr-wear/
-├── new_flwr_wear/
-│   │   ├── flwr_utils/
-│   │   │   ├── TinyHAR.py                      # Defines TinyHAR Model
-│   │   │   ├── client_utils.py                 # Utility function for client 
-│   │   │   ├── plotting_functions.py           # Defies plotting methods
-│   │   │   ├── server_plotting_function.py     # Defies server side plottinng methods
-│   │   │   └── utils_for_tinyhar.py            # Defines functions for data cleaning, processing  
-│   │   ├── client_app.py                       # Defines ClientApp
-│   │   ├── my_strategy.py                      # Defines custom strategy for ServerApp
-│   │   ├── server_app.py                       # Defines ServerApp
-│   │   └── task.py                              
-│   ├── config/                                 # Configuration for entire project
-│   │   └── base.yaml                  
+FedFitTech/
+├── FedFitTech/
+│   ├── config/                             # Configuration for entire project
+│   │   └── base.yaml
+│   ├── flwr_utils/
+│   │   ├── TinyHAR.py                      # Defines TinyHAR Model
+│   │   ├── client_utils.py                 # Utility function for client 
+│   │   ├── plotting_functions.py           # Defies plotting methods
+│   │   ├── server_plotting_function.py     # Defies server side plottinng methods
+│   │   └── utils_for_tinyhar.py            # Defines functions for data cleaning, processing
 │   ├── inertial_data/                          # Data subjectwise
-│   │   └── *.csv              
-|   ├── requirements.txt                        # Other Requirements for the project
-│   └── pyproject.toml                          # Project metadata like dependencies and configs
-└── README.md
+│   │   └── *.csv  
+│   ├── client_app.py                       # Defines ClientApp
+│   ├── my_strategy.py                      # Defines custom strategy for ServerApp
+│   ├── server_app.py                       # Defines ServerApp
+│   └── task.py                                          
+├── LICENSE
+├── README.md
+├── pyproject.toml                              # Project metadata like dependencies and configs
+└── requirements.txt                            # Other Requirements for the project
 ```
 
 ## 5 Runing Experiment
