@@ -242,7 +242,7 @@ Figure 2 illustrates that some clients did not improve their local F1-score even
 </p>
 
 <p align="center">
-  <img src="new-flwr-wear/Results_to_compare/F1_scores_convergence_with_early_stopping_linegraph.svg" alt="Figure 2" width="85%" />
+  <img src="FedFitTech/Results_to_compare/F1_scores_convergence_with_early_stopping_linegraph.svg" alt="Figure 2" width="85%" />
 </p>
 <p align="center">
   <em> Figure 2: Communication rounds (X-axis) vs. F1-scores (Y-axis). The dashed black line shows the mean values of all local performances, and triangles depict early-stopped clients' rounds. </em>
@@ -254,7 +254,7 @@ Figure 2 illustrates that some clients did not improve their local F1-score even
 <p align="justify"> Figure 3 shows the difference of F1-score (y-axis) over clients(x-axis) </p>
 
 <p align="center">
-  <img src="new-flwr-wear/Results_to_compare/F1_scores_comparison_double_bar_plot.svg" width="85%" />
+  <img src="FedFitTech/Results_to_compare/F1_scores_comparison_double_bar_plot.svg" width="85%" />
 </p>
 <p align="center">
   <em>Figure 3: F1-Score Comparison: FedFitTech vs. Case Study </em>
@@ -266,8 +266,8 @@ Figure 2 illustrates that some clients did not improve their local F1-score even
 Figures 4 and 5 depict the label-based F1-scores for the FedFitTech baseline and the case study, respectively. The actual label names in these figures are as follows:</p>
 
 <p align="center">
-  <img src="new-flwr-wear/Results_to_compare/clients_vs_label_F1_scores_heatmaps_Normal.svg" width="49%" />
-  <img src="new-flwr-wear/Results_to_compare/clients_vs_label_F1_scores_heatmaps_Early_Stopping.svg" width="49%" />
+  <img src="FedFitTech/Results_to_compare/clients_vs_label_F1_scores_heatmaps_Normal.svg" width="49%" />
+  <img src="FedFitTech/Results_to_compare/clients_vs_label_F1_scores_heatmaps_Early_Stopping.svg" width="49%" />
 </p>
 <p align="center">
   <em>Figure 1 (Client-Label Based F1-Scores of the FedFitTech), Figure 2 (Client-Label Based F1-Scores of the Case Study)</em>
