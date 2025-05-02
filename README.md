@@ -11,7 +11,7 @@ Dataset:
 
 # FedFitTech: A Baseline in Federated Learning for Fitness Tracking
 
-<p align="justify">  FedFitTech is a Flower framework for Federated Learning in fitness technology (FitTech) that incorporates a client-side early stopping strategy, serving as a baseline for optimizing fitness activity recognition while reducing communication overhead.  </p>
+<p align="justify">  This repository introduces FedFitTech, which is a Federated Learning baseline specifically designed for Fitness Technology (FitTech) using the Flower framework. As an example usage of FedFitTech, we also included a case study that incorporates a client-side early stopping strategy.  </p>
 
 **Paper:** [link]((https://arxiv.org)
 
