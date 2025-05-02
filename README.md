@@ -73,8 +73,8 @@ dataset:
 | Number of Filters | 24 |
 | Preference for NULL | Yes |
 | Fraction fit| 1.0 |
-|Fraction Evaluate | 1.0 |
-| Early Stopping | True or 1|
+| Fraction Evaluate | 1.0 |
+| Early Stopping | True or 1 |
 
 
 ## 3 Envirnnomental Setup
