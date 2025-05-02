@@ -12,7 +12,6 @@ Created on Thu Oct 24 14:17:57 2024
 """
 
 from .utils_for_tinyhar import get_learning_type_name
-
 import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
 from matplotlib.colors import ListedColormap

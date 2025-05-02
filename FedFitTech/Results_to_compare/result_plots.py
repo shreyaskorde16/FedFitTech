@@ -9,7 +9,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 import os
-from results_ploting_utils import *
+from Results_to_compare.results_ploting_utils import *
 
 # Files paths - Global rounds vs Clients [F1 scores]
 ES_f1_vs_round_path = "Results_to_compare/dataframes/Validation_F1_Scores_vs_rounds_with_EA.csv"

@@ -14,8 +14,8 @@ from flwr.common import Scalar
 from flwr.server.strategy import FedAvg 
 from flwr.common import Parameters, parameters_to_ndarrays
 from flwr.server.strategy import FedAvg
-from new_flwr_wear.flwr_utils.client_utils import get_model_plot_directory, get_net_and_config, set_weights, get_weights
-from new_flwr_wear.flwr_utils.server_plotting_function import weighted_eval_average_plottinng
+from FedFitTech.flwr_utils.client_utils import get_model_plot_directory, get_net_and_config, set_weights, get_weights
+from FedFitTech.flwr_utils.server_plotting_function import weighted_eval_average_plottinng
 from omegaconf import DictConfig
 
 

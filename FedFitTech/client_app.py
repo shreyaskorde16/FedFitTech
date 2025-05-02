@@ -5,11 +5,11 @@ import sys
 import os
 from flwr.client import ClientApp, NumPyClient
 from flwr.common import Context, ConfigsRecord
-from new_flwr_wear.task import  get_weights, set_weights
-from new_flwr_wear.flwr_utils.client_utils import get_net_and_config, load_data_for_client
+from FedFitTech.task import  get_weights, set_weights
+from FedFitTech.flwr_utils.client_utils import get_net_and_config, load_data_for_client
 from flwr.client import NumPyClient, ClientApp
-from new_flwr_wear.flwr_utils.client_utils import *
-from new_flwr_wear.flwr_utils.utils_for_tinyhar import *
+from FedFitTech.flwr_utils.client_utils import *
+from FedFitTech.flwr_utils.utils_for_tinyhar import *
 import torch
 import pandas as pd
 from datetime import datetime
@@ -70,7 +70,7 @@ class FlowerClient(NumPyClient):
                     f"Has_converged = {context_early_stop['has_converged']}"
                     
                 # Define log file path inside the Flower logs directory
-                log_dir = "Early_stopping_logs/"
+                log_dir = "./FedFitTech/Early_stopping_logs/"
                 os.makedirs(log_dir, exist_ok=True)  # Ensure directory exists
                 file_name = context_early_stop["log_file_name"]
                 fit_log_file = os.path.join(log_dir, file_name)

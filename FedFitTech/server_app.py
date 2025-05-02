@@ -3,7 +3,7 @@
 from flwr.common import Context, ndarrays_to_parameters, ConfigsRecord, RecordSet
 from flwr.server import ServerApp, ServerAppComponents, ServerConfig
 from flwr.server.strategy import FedAvg
-from new_flwr_wear.task import  get_weights
+from FedFitTech.task import  get_weights
 import sys
 import os
 from typing import List, Tuple
@@ -12,9 +12,9 @@ from omegaconf import DictConfig, OmegaConf
 from flwr.common import Context, ndarrays_to_parameters, Metrics
 from flwr.server import ServerApp, ServerAppComponents, ServerConfig
 from flwr.server.strategy import FedAvg
-from new_flwr_wear.flwr_utils.client_utils import *
-from new_flwr_wear.flwr_utils.server_plotting_function import *
-from new_flwr_wear.my_strategy import CustomFedAvg
+from FedFitTech.flwr_utils.client_utils import *
+from FedFitTech.flwr_utils.server_plotting_function import *
+from FedFitTech.my_strategy import CustomFedAvg
 
 
 def fit_config(server_round: int):
