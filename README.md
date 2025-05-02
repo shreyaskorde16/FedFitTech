@@ -1,10 +1,10 @@
 ---
-title: "FedFitTech: A Baseline in Federated Learning for Fitness Tracking"
+Title: "FedFitTech: A Baseline in Federated Learning for Fitness Tracking"
 url: "https://arxiv.org"
-labels:
+Labels:
   - TinyHAR
   - "https://publikationen.bibliothek.kit.edu/1000150216"
-dataset:
+Dataset:
   - WEAR
   - "https://mariusbock.github.io/wear/"
 ---
