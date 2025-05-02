@@ -57,13 +57,15 @@ Dataset:
 
 **2.3 Data splitting:** <p align="justify">In the WEAR dataset, participants perform the same activities multiple times across different time periods to simulate realistic scenarios. This variability means that activity patterns can change over time due to factors like fatigue, weather conditions, and ground changes. To account for this, the dataset is split such that the first 20% of each labeled activity in the time series is used for testing, and the remaining 80% is used for training. This approach ensures that the testing data includes varied patterns, such as a person jogging both at the beginning and later in the exercise session.</p>
 
+**2.4 Client setting:** In the dataset, 2 participants were re-recorded in a different season and environment, resulting in 24 subjects. These 2 additional subjects are treated as separate devices for the same individuals to reflect real-world FitTech scenarios, thus setting the number of clients to 24.
+
 | Dataset  | classes (including NULL) | clients | 
 | :------- | :------: | :------: | 
 | WEAR |    19    |  24  |  
 
-**2.4 Early stopping Strategy:** <p align="justify"> Our case study focuses on the FitTech domain and employs early stopping based on the validation F1-score over a sliding window. Although simple to implement, this method ensures that the global model retains valuable patterns from all clients, including those with limited generalization capability.</p>
+**2.5 Early stopping Strategy:** <p align="justify"> Our case study focuses on the FitTech domain and employs early stopping based on the validation F1-score over a sliding window. Although simple to implement, this method ensures that the global model retains valuable patterns from all clients, including those with limited generalization capability.</p>
     
-**2.5 FL Trainig Hyperparameters:** <p align="justify">By default, the main hyperparameters used are shown in the table below. For a complete list of hyperparameters, please refer to the configuration file in `FedFitTech/config/base.yaml`.</p>
+**2.6 FL Trainig Hyperparameters:** <p align="justify">By default, the main hyperparameters used are shown in the table below. For a complete list of hyperparameters, please refer to the configuration file in `FedFitTech/config/base.yaml`.</p>
 
 
 | Description | Value |
