@@ -230,7 +230,7 @@ Config records for Client Id 18: Best Validatio F1 score 0.750440226645707, Coun
 
 
 <p align="center">
-  <img src="new-flwr-wear/Results_to_compare/Global_rounds_vs_clients_single_bar_plot.svg" width="85%" />
+  <img src="FedFitTech/Results_to_compare/Global_rounds_vs_clients_single_bar_plot.svg" width="85%" />
 </p>
 <p align="center">
   <em>Figure 1: The figure shows the number of training rounds each client attended in the case study. The Y-axis represents the F1-score, and the X-axis represents client IDs. Red indicates communication cost, green shows saved communication rounds, and the dashed black line is the mean. </em>
