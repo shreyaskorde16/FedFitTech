@@ -1,0 +1,38 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "FedFitTech"
+version = "1.0.0"
+description = ""
+license = "Apache-2.0"
+dependencies = [
+    "flwr[simulation]==1.15.0",
+    "flwr-datasets[vision]>=0.5.0",
+    "torch==2.5.1",
+    "torchvision==0.20.1",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["."]
+
+[tool.flwr.app]
+publisher = "shreyaskorde16"
+
+[tool.flwr.app.components]
+serverapp = "FedFitTech.server_app:app"
+clientapp = "FedFitTech.client_app:app"
+
+[tool.flwr.app.config]
+num-server-rounds = 3
+fraction-fit = 1
+local-epochs = 1
+
+[tool.flwr.federations]
+default = "local-simulation"
+
+[tool.flwr.federations.local-simulation]
+options.num-supernodes = 24
+options.backend.client-resources.num-cpus = 1 # Each ClientApp will get assigned 1 CPU core
+options.backend.client-resources.num-gpus = 0.5 # Each ClientApp will get 50% of each available GPU
