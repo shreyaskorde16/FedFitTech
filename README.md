@@ -57,7 +57,7 @@ dataset:
 
 **2.4 Early stopping Strategy:** <p align="justify"> Our case study focuses on the FitTech domain and employs early stopping based on the validation F1-score over a sliding window. Although simple to implement, this method ensures that the global model retains valuable patterns from all clients, including those with limited generalization capability.</p>
     
-**2.5 FL Trainig Hyperparameters:** <p align="justify">By default, the main hyperparameters used are shown in the table below. For a complete list of hyperparameters, please refer to the configuration file in `new-flwr-wear/new_flwr_wear/config/base.yaml`.</p>
+**2.5 FL Trainig Hyperparameters:** <p align="justify">By default, the main hyperparameters used are shown in the table below. For a complete list of hyperparameters, please refer to the configuration file in `FedFitTech/config/base.yaml`.</p>
 
 
 | Description | Value |
@@ -151,7 +151,7 @@ FedFitTech/
 │   │   ├── plotting_functions.py           # Defies plotting methods
 │   │   ├── server_plotting_function.py     # Defies server side plottinng methods
 │   │   └── utils_for_tinyhar.py            # Defines functions for data cleaning, processing
-│   ├── inertial_data/                          # Data subjectwise
+│   ├── inertial_data/                      # Data subjectwise
 │   │   └── *.csv  
 │   ├── client_app.py                       # Defines ClientApp
 │   ├── my_strategy.py                      # Defines custom strategy for ServerApp
@@ -188,8 +188,8 @@ This repository contains the necessary code and resources to reproduce the basel
 For a comprehensive overview, detailed illustrations of the graphs and results are provided below. All graphs and results are conveniently stored in the `new-flwr-wear/Results_to_compare directory`.
 
 > \[!Note\]
-> Upon running the experiment, a `new-flwr-wear/Flower_log` folder will be generated, containing all the plots and CSV files.
-> Additionally, for logs related to early stopping, an `new-flwr-wear/Early_stoppinng_logs` folder will be created. This folder will store client-specific early stopping metadata
+> Upon running the experiment, a `FedFitTech/Flower_log` folder will be generated, containing all the plots and CSV files.
+> Additionally, for logs related to early stopping, an `FedFitTech/Early_stoppinng_logs` folder will be created. This folder will store client-specific early stopping metadata
 
 **6.2 Early stopping metadata**
 
