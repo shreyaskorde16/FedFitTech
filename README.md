@@ -36,7 +36,8 @@ dataset:
 </p>
 
 > [!NOTE]
-> <p align="justify"> By default, the code will run on a GPU if available; otherwise, it will run on the CPU. This example runs much faster when the `ClientApp`s have access to a GPU. If your system has one, try running the example with GPU support.
+> <p align="justify"> By default, the code will run on a GPU if available; otherwise, it will run on the CPU. This example runs much faster when the `ClientApp` have access to a GPU. If your system has one, try running the example with GPU support.
+  
 > Although it is not compulsory to use a GPU for training the TinyHAR model, as it can be efficiently trained on a CPU with minimal computation time, more complex models like DeepConvLSTM, typically used for Human Activity Recognition (HAR) tasks, often require a GPU to achieve reasonable training times.  </p>
 
 **Contributors**: Shreyas Korde, Zeyneddin Oz, Marius Bock
