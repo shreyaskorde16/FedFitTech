@@ -72,10 +72,10 @@ dataset:
 | Global round | 100 |
 | Number of Features | 12 |
 | Number of Filters | 24 |
-| Preference for NULL | Yes |
+| Preference for NULL | True |
 | Fraction fit| 1.0 |
 | Fraction Evaluate | 1.0 |
-| Early Stopping | True or 1 |
+| Early Stopping | True |
 
 
 ## 3 Envirnnomental Setup
