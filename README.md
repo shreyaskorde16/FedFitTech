@@ -29,11 +29,11 @@ Dataset:
 
 **1.2 Dataset:** <p align="justify"> The [WEAR](https://mariusbock.github.io/wear/) (Wearable and Egocentric Activity Recognition) dataset includes 22 participants, 24 subjects, 18 activities + NULL class. The activities are grouped into three categories: 
 
-* **Jogging** (5 activities: normal, rotating arms, skipping, sidesteps, butt-kicks).
+* _Jogging_ (5 activities: normal, rotating arms, skipping, sidesteps, butt-kicks).
 
-* **Stretching** (5 activities: triceps, lunging, shoulders, hamstrings, lumbar rotation). 
+* _Stretching_ (5 activities: triceps, lunging, shoulders, hamstrings, lumbar rotation). 
 
-* **Strength** (8 activities: push-ups, push-ups (complex), sit-ups, sit-ups (complex), burpees, lunges, lunges (complex), bench dips). </p>
+* _Strength_ (8 activities: push-ups, push-ups (complex), sit-ups, sit-ups (complex), burpees, lunges, lunges (complex), bench dips). </p>
 
 
 
