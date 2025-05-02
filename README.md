@@ -15,7 +15,7 @@ dataset:
 
 **Paper:** [link]((https://arxiv.org)
 
-**Authors:** 1. Zeyneddin Oz, 2. Shreyas Korde, 3. Marius Bock, 4. Kristof Van Laerhoven
+**Authors:** 1. [Zeyneddin Oz](https://orcid.org/0000-0002-4216-9854), 2. [Shreyas Korde](https://orcid.org/0009-0000-3771-3096), 3. [Marius Bock](https://orcid.org/0000-0001-7401-928X), 4. [Kristof Van Laerhoven](https://orcid.org/0000-0001-5296-5347)
 
 **Affiliation:** [**University of Siegen**](https://www.uni-siegen.de/start/), [Ubiquitous Computing](https://www.ivg.informatik.uni-siegen.de/de/ubiquitous-computing)
 
