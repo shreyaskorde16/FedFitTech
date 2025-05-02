@@ -24,10 +24,7 @@ Dataset:
 
 ## 1 About this baseline
 
-**1.1 What's implemented:** <p align="justify">  Our case study on FedFitTech focuses on balancing personalization and generalization in the FitTech domain using Federated Learning. We introduce an early stopping method to address these challenges. Our contributions are threefold:
-1. **Fitness Activity Recognition**: We emphasize the suitability of fitness activity recognition (HAR) for Federated Learning.
-2. **Flower Baseline for Fitness Tracking**: We developed FedFitTech, a baseline for the Flower framework, enabling reproducible experiments and benchmarking.
-3. **Balanced Generalization**: We demonstrate the use of this baseline with client-side early stopping to reduce energy consumption and improve efficiency. </p>
+**1.1 What's implemented:** <p align="justify">  The code in this directory provides the FedFitTech baseline, enables reproducible experiments and benchmarking of Fitness Tracking in the Federated Learning setting, as well as a case study of FedFitTech. </p>
 
 
 **1.2 Dataset:** <p align="justify">  The [WEAR](https://mariusbock.github.io/wear/) (Wearable and Egocentric Activity Recognition) dataset includes labeled activities performed by 22 participants, categorized into jogging (normal, rotating arms, skipping, side steps, butt-kicks), stretching (triceps, lunging, shoulders, hamstrings, lumbar rotation), and strength exercises (push-ups, push-ups (complex), sit-ups, sit-ups (complex), burpees, lunges, lunges (complex), bench dips). It also features a NULL label for unlabeled periods. Collected across multiple outdoor locations with varying conditions, the dataset aligns with real-world trends and is ideal for fitness tracking due to its diverse participants, classes, and labeled data. Two participants were re-recorded in a different season and environment,resulting in 24 subjects.These two additional subjects are treated as separate devices for the same individuals to reflect real-world FitTech scenarios,thus setting the number of clients to 24. </p>
