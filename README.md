@@ -29,6 +29,18 @@ Dataset:
 
 **1.2 Dataset:** <p align="justify">  The [WEAR](https://mariusbock.github.io/wear/) (Wearable and Egocentric Activity Recognition) dataset includes labeled activities performed by 22 participants, categorized into jogging (normal, rotating arms, skipping, side steps, butt-kicks), stretching (triceps, lunging, shoulders, hamstrings, lumbar rotation), and strength exercises (push-ups, push-ups (complex), sit-ups, sit-ups (complex), burpees, lunges, lunges (complex), bench dips). It also features a NULL label for unlabeled periods. Collected across multiple outdoor locations with varying conditions, the dataset aligns with real-world trends and is ideal for fitness tracking due to its diverse participants, classes, and labeled data. Two participants were re-recorded in a different season and environment,resulting in 24 subjects.These two additional subjects are treated as separate devices for the same individuals to reflect real-world FitTech scenarios,thus setting the number of clients to 24. </p>
 
+
+The [WEAR](https://mariusbock.github.io/wear/) (Wearable and Egocentric Activity Recognition) dataset includes 22 participants, 24 subjects, 18 activities + NULL class. The activities are grouped into three categories: 
+
+* Jogging (5 activities: normal, rotating arms, skipping, sidesteps, butt-kicks).
+
+* Stretching (5 activities: triceps, lunging, shoulders, hamstrings, lumbar rotation). 
+
+* Strength (8 activities: push-ups, push-ups (complex), sit-ups, sit-ups (complex), burpees, lunges, lunges (complex), bench dips).
+
+
+
+
 **1.3 Hardware Setup:** <p align="justify">  The experiments were conducted on a machine equipped with 32 GB RAM, 14 CPU cores, and an Nvidia RTX 3060 GPU with 6 GB of VRAM.
 </p>
 
