@@ -195,12 +195,21 @@ flwr run .
 ## 6 Evaluation Results
 
 **6.1 FedFitTech Result**
+
 Figure 2 illustrates the mean F1 score for all clients using FedFitTech over 100 global rounds.
 <p align="center">
   <img src="FedFitTech/Results_to_compare/F1_scores_baseline.svg" width="85%" />
 </p>
 <p align="center">
   <em>Figure 2: F1 score vs Clients for FedFitTech baseline</em>
+</p>
+
+Figure 3 illustrates the Convergence of the F1 score over 100 global rounds for the FedFitTech baseline.
+<p align="center">
+  <img src="FedFitTech/Results_to_compare/F1_scores_convergence_linegraph_baseline.svg" width="85%" />
+</p>
+<p align="center">
+  <em>Figure 3: Convergence of the F1 score over 100 global rounds for the FedFitTech baseline.</em>
 </p>
 
 **6.1 Difference between FedFitTech and case study** 
