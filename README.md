@@ -63,7 +63,7 @@ Dataset:
 | :------- | :------: | :------: | 
 | WEAR |    19    |  24  |  
 
-**2.5 Early stopping Strategy:** <p align="justify"> Our case study focuses on the FitTech domain and employs early stopping based on the validation F1-score over a sliding window. Although simple to implement, this method ensures that the global model retains valuable patterns from all clients, including those with limited generalization capability.</p>
+**2.5 FedFitTech Baseline:** <p align="justify">   </p>
     
 **2.6 FL Trainig Hyperparameters:** <p align="justify">By default, the main hyperparameters used are shown in the table below. For a complete list of hyperparameters, please refer to the configuration file in `FedFitTech/config/base.yaml`.</p>
 
@@ -302,8 +302,14 @@ R: Lunges (complex)
 S: Bench-dips
  </p>
 
+
+ **2.5 Early stopping Strategy:** <p align="justify"> Our case study focuses on the FitTech domain and employs early stopping based on the validation F1-score over a sliding window. Although simple to implement, this method ensures that the global model retains valuable patterns from all clients, including those with limited generalization capability.</p>
+
 > [!NOTE]
 > If you use this baseline in your work, please remember to cite the original authors of the paper as well as the Flower paper.
+
+
+
 
 ### For any questions, feel free to contact us via email.
 
