@@ -221,7 +221,7 @@ Figure 3 illustrates the Convergence of the F1 score over 100 global rounds for 
 
 ## 7 FedFitTech with Case Study: Client-wise Early Stopping
 
- **7.1 Early stopping Strategy:** <p align="justify"> Our case study focuses on the FitTech domain and employs early stopping based on the validation F1-score over a sliding window. Although simple to implement, this method ensures that the global model retains valuable patterns from all clients, including those with limited generalization capability.</p>
+**7.1 Early stopping Strategy:** <p align="justify"> Our case study focuses on the FitTech domain and employs early stopping based on the validation F1-score over a sliding window. Although simple to implement, this method ensures that the global model retains valuable patterns from all clients, including those with limited generalization capability.</p>
 
 
 **7.2 Implementation of FedFitTech case study** 
@@ -286,7 +286,7 @@ Config records for Client Id 18: Best Validatio F1 score 0.750440226645707, Coun
 
 <p align="justify"> The evaluation of this work includes a compelling comparison between FedFitTech and its client-side early stopping case study, focusing on both communication loads and the global model's performance on local data. </p>
 
-**7.4.1 Communication Cost**
+  **7.4.1 Communication Cost**
 
 <p align="justify"> Figure 4 illustrates that Notably, 9 out of 24 clients stopped training the global model early, with the earliest stop at round 40 and some clients stopping after more than 80 rounds. This highlights that prolonged participation does not guarantee continued benefit. </p>
 
@@ -312,7 +312,7 @@ Figure 5 illustrates that some clients did not improve their local F1-score even
 </p>
 
 
-**7.4.2 Model Performance**
+  **7.4.2 Model Performance**
 
 <p align="justify"> Figure 6 shows the difference of F1-score (y-axis) over clients(x-axis) </p>
 
