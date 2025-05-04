@@ -196,6 +196,11 @@ flwr run .
 
 **6.1 FedFitTech Result**
 
+<p align="center"> This repository contains the necessary code and resources to reproduce the baseline results presented in the experimental section of the original paper: **FedFitTech**. Note that values such as F1 scores and server rounds may vary **slightly** due to differences in hardware, software environments, and random initialization. For a comprehensive overview, detailed illustrations of the graphs and results are provided below. All graphs and results are conveniently stored in the `FedFitTech/Results_to_compare` directory. </p>
+
+> \[!Note\]
+> Upon running the experiment, a `FedFitTech/Flower_log` folder will be generated, containing all the plots and CSV files.
+
 Figure 2 illustrates the mean F1 score for all clients using FedFitTech over 100 global rounds.
 <p align="center">
   <img src="FedFitTech/Results_to_compare/F1_scores_baseline.svg" width="85%" />
@@ -212,17 +217,33 @@ Figure 3 illustrates the Convergence of the F1 score over 100 global rounds for 
   <em>Figure 3: Convergence of the F1 score over 100 global rounds for the FedFitTech baseline.</em>
 </p>
 
-**6.1 Difference between FedFitTech and case study** 
 
-<p align="justify"> FedFitTech serves as the baseline for Federated Learning in fitness tracking, running complete global rounds for all clients. The case study presents an improved version of FedFitTech, where clients stop learning once they have converged, enhancing efficiency. 
+**6.2 Implementation of FedFitTech case study (With Early stopping)** 
 
-This repository contains the necessary code and resources to reproduce the baseline results presented in the experimental section of the original paper: **FedFitTech**. Note that values such as F1 scores and server rounds may vary **slightly** due to differences in hardware, software environments, and random initialization. </p>
+<p align="justify"> The **FedFitTech case study** presents an improved version of FedFitTech, where clients stop learning once they have converged, enhancing efficiency. To
+</p>
 
-For a comprehensive overview, detailed illustrations of the graphs and results are provided below. All graphs and results are conveniently stored in the `new-flwr-wear/Results_to_compare directory`.
+<p align="justify"> To perform an experiment with the case study, you just need to change the `Early Stopping` flag in the configuration file located at `FedFitTech/config/base.yaml`. The updated hyperparameters will be as shown below. </p>
+
+
+| Description | Value |
+| --------------- | --------- |
+|  Min available clients |  24     |
+|Learning rate| 0.001|
+|Local Epoch| 1 |
+| Batch size | 32 |
+| Optimizer | Adam |
+| Window size | 100 |
+| Global round | 100 |
+| Number of Features | 12 |
+| Number of Filters | 24 |
+| Preference for NULL | True |
+| Fraction fit| 1.0 |
+| Fraction Evaluate | 1.0 |
+| Early Stopping | **True** |
 
 > \[!Note\]
-> Upon running the experiment, a `FedFitTech/Flower_log` folder will be generated, containing all the plots and CSV files.
-> Additionally, for logs related to early stopping, an `FedFitTech/Early_stoppinng_logs` folder will be created. This folder will store client-specific early stopping metadata
+> For logs related to early stopping, an `FedFitTech/Early_stoppinng_logs` folder will be created. This folder will store client-specific early stopping metadata
 
 **6.2 Early stopping metadata**
 
