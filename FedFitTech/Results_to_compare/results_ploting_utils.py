@@ -126,6 +126,11 @@ def plot_f1_scores_comparison(df_distributed):
 def plot_f1_convergence(df_f1_scores):
   
     print(df_f1_scores.head())
+    df_f1_scores.columns = [col.replace("Client_Id_", "") for col in df_f1_scores.columns]
+    print(df_f1_scores.head())
+    # Set the figure size
+    plt.figure(figsize=(12, 8))
+    
     # Step 1: Melt the DataFrame to long format
     df_melted = df_f1_scores.melt(id_vars=["Server_Round"], var_name="Client_Id", value_name="F1_Score")
 
@@ -142,16 +147,16 @@ def plot_f1_convergence(df_f1_scores):
     
     # Plot the mean F1 score (in black) as a dashed line
     sns.lineplot(x=df_f1_scores["Server_Round"], y=mean_f1_scores, color="black", marker="^", markersize=5,
-             linestyle="--", label="Mean F1 Score", linewidth=1.4)
+             linestyle="--", label="Mean F1", linewidth=1.4)
     
     # Customize the plot
-    plt.xlabel('Server Round', fontsize=14)
-    plt.ylabel('F1 Score', fontsize=14)
+    plt.xlabel('Server Round', fontsize=14, fontweight='bold')
+    plt.ylabel('F1 Score', fontsize=14, fontweight='bold')
     plt.title('F1 Score Convergence for 24 Clients Across 100 Global Rounds', fontsize=14, fontweight='bold')
-    plt.legend(title="Clients", bbox_to_anchor=(1.05, 1), loc='upper left', fontsize=8)  # Place legend outside the plot
+    plt.legend(title="Clients", bbox_to_anchor=(1.05, 1), loc='upper left', fontsize=12)  # Place legend outside the plot
 
     plt.tight_layout()  
-    plt.gca().legend_.remove() 
+    #plt.gca().legend_.remove() 
     
     # Save High-Quality Figure
     plt.savefig("F1_scores_convergence_linegraph_baseline.eps", format="eps", dpi=1200, bbox_inches='tight')

@@ -70,11 +70,11 @@ df_distributed_metrics_for_plot3 = pd.DataFrame(data_3)
 
 
 # Function to plot the Barcharts, linegraph, Heatmaps
-plot_f1_scores_baseline(data_4)
+#plot_f1_scores_baseline(data_4)
 
 #plot_f1_scores_comparison(df_distributed_metrics_for_plot1)
 
-#plot_f1_convergence(Df_NORMAL_f1_vs_round)
+plot_f1_convergence(Df_NORMAL_f1_vs_round)
 
 #plot_f1_convergence_with_stop_round(Df_ES_f1_vs_round, df_distributed_metrics_for_plot3)
 #
