@@ -63,7 +63,7 @@ Dataset:
 | :------- | :------: | :------: | 
 | WEAR |    19    |  24  |  
 
-**2.5 FedFitTech Baseline:** <p align="justify">   </p>
+**2.5 FedFitTech Baseline:** <p align="justify"> FedFitTech Baseline is your foundational setup for fitness technology applications using Federated Learning (FL). To get started, use the default hyperparameters provided, which ensure a stable starting point for your experiments. Feel free to explore different configurations by adjusting these hyperparameters to optimize performance and achieve better results tailored to your specific needs.  </p>
     
 **2.6 FL Trainig Hyperparameters:** <p align="justify">By default, the main hyperparameters used are shown in the table below. For a complete list of hyperparameters, please refer to the configuration file in `FedFitTech/config/base.yaml`.</p>
 
