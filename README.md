@@ -219,7 +219,7 @@ Figure 3 illustrates the Convergence of the F1 score over 100 global rounds for 
   <em>Figure 3: Convergence of the F1 score over 100 global rounds for the FedFitTech baseline.</em>
 </p>
 
-## 7 FedFitTech with Case Study (Clientwise Early stopping)
+## 7 FedFitTech with Case Study: Client-wise Early Stopping
 
  **7.1 Early stopping Strategy:** <p align="justify"> Our case study focuses on the FitTech domain and employs early stopping based on the validation F1-score over a sliding window. Although simple to implement, this method ensures that the global model retains valuable patterns from all clients, including those with limited generalization capability.</p>
 
