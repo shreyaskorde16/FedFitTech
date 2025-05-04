@@ -197,7 +197,7 @@ flwr run .
 **6.1 FedFitTech Result**
 
 <p align="justify">
-This repository contains the necessary code and resources to reproduce the baseline results presented in the experimental section of the original paper: **FedFitTech**. Note that values such as F1 scores and server rounds may vary **slightly** due to differences in hardware, software environments, and random initialization. For a comprehensive overview, detailed illustrations of the graphs and results are provided below. All graphs and results are conveniently stored in the `FedFitTech/config/base.yaml` directory. 
+This repository contains the necessary code and resources to reproduce the baseline results presented in the experimental section of the original paper: FedFitTech. Note that values such as F1 scores and server rounds may vary slightly due to differences in hardware, software environments, and random initialization. For a comprehensive overview, detailed illustrations of the graphs and results are provided below. All graphs and results are conveniently stored in the `FedFitTech/config/base.yaml` directory.
 </p>
 
 > \[!Note\]
