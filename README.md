@@ -219,8 +219,12 @@ Figure 3 illustrates the Convergence of the F1 score over 100 global rounds for 
   <em>Figure 3: Convergence of the F1 score over 100 global rounds for the FedFitTech baseline.</em>
 </p>
 
+## 7 FedFitTech with Case Study (Clientwise Early stopping)
 
-**6.2 Implementation of FedFitTech case study (With Early stopping)** 
+ **7.1 Early stopping Strategy:** <p align="justify"> Our case study focuses on the FitTech domain and employs early stopping based on the validation F1-score over a sliding window. Although simple to implement, this method ensures that the global model retains valuable patterns from all clients, including those with limited generalization capability.</p>
+
+
+**7.2 Implementation of FedFitTech case study** 
 
 <p align="justify"> The FedFitTech case study presents an improved version of FedFitTech, where clients stop learning once they have converged, enhancing efficiency.
 </p>
@@ -248,7 +252,7 @@ Figure 3 illustrates the Convergence of the F1 score over 100 global rounds for 
 > \[!Note\]
 > For logs related to early stopping, an `FedFitTech/Early_stoppinng_logs` folder will be created. This folder will store client-specific early stopping metadata
 
-**6.2 Early stopping metadata**
+**7.3 Early stopping metadata**
 
 <p align="justify">
   
@@ -277,12 +281,14 @@ Config records for Client Id 4: Best Validatio F1 score 0.48267210946367445, Cou
 Config records for Client Id 18: Best Validatio F1 score 0.750440226645707, Counter value 0, for server round 93 Has_converged = True
 
 ```
-<p align="justify"> The evaluation of this work compares FedFitTech with its client-side early stopping case study, considering both communication loads and global model performance on local data. </p>
 
+**7.4 Evaluation Results for FedFitTech Case study**
 
-**6.3 Communication Cost**
+<p align="justify"> The evaluation of this work includes a compelling comparison between FedFitTech and its client-side early stopping case study, focusing on both communication loads and the global model's performance on local data. </p>
 
-<p align="justify"> Figure 1 illustrates that Notably, 9 out of 24 clients stopped training the global model early, with the earliest stop at round 40 and some clients stopping after more than 80 rounds. This highlights that prolonged participation does not guarantee continued benefit. </p>
+**7.4.1 Communication Cost**
+
+<p align="justify"> Figure 4 illustrates that Notably, 9 out of 24 clients stopped training the global model early, with the earliest stop at round 40 and some clients stopping after more than 80 rounds. This highlights that prolonged participation does not guarantee continued benefit. </p>
 
 
 
@@ -290,44 +296,44 @@ Config records for Client Id 18: Best Validatio F1 score 0.750440226645707, Coun
   <img src="FedFitTech/Results_to_compare/Global_rounds_vs_clients_single_bar_plot.svg" width="85%" />
 </p>
 <p align="center">
-  <em>Figure 1: The figure shows the number of training rounds each client attended in the case study. The Y-axis represents the F1-score, and the X-axis represents client IDs. Red indicates communication cost, green shows saved communication rounds, and the dashed black line is the mean. </em>
+  <em>Figure 4: The figure shows the number of training rounds each client attended in the case study. The Y-axis represents the F1-score, and the X-axis represents client IDs. Red indicates communication cost, green shows saved communication rounds, and the dashed black line is the mean. </em>
 </p>
 
 
 <p align="justify">
-Figure 2 illustrates that some clients did not improve their local F1-score even after 30 rounds of training. Despite some clients being dropped, the overall global model F1-score continued to increase, as shown by the black dashed line.
+Figure 5 illustrates that some clients did not improve their local F1-score even after 30 rounds of training. Despite some clients being dropped, the overall global model F1-score continued to increase, as shown by the black dashed line.
 </p>
 
 <p align="center">
   <img src="FedFitTech/Results_to_compare/F1_scores_convergence_with_early_stopping_linegraph.svg" alt="Figure 2" width="85%" />
 </p>
 <p align="center">
-  <em> Figure 2: Communication rounds (X-axis) vs. F1-scores (Y-axis). The dashed black line shows the mean values of all local performances, and triangles depict early-stopped clients' rounds. </em>
+  <em> Figure 5: Communication rounds (X-axis) vs. F1-scores (Y-axis). The dashed black line shows the mean values of all local performances, and triangles depict early-stopped clients' rounds. </em>
 </p>
 
 
-**6.4 Model Performance**
+**7.4.2 Model Performance**
 
-<p align="justify"> Figure 3 shows the difference of F1-score (y-axis) over clients(x-axis) </p>
+<p align="justify"> Figure 6 shows the difference of F1-score (y-axis) over clients(x-axis) </p>
 
 <p align="center">
   <img src="FedFitTech/Results_to_compare/F1_scores_comparison_double_bar_plot.svg" width="85%" />
 </p>
 <p align="center">
-  <em>Figure 3: F1-Score Comparison: FedFitTech vs. Case Study </em>
+  <em>Figure 6: F1-Score Comparison: FedFitTech vs. Case Study </em>
 </p>
 
-<p align="justify"> Figure 3 depicts the client-based F1-score changes. FedFitTech achieved a mean F1-score of 68% overall for clients, while the early stopping case study's mean F1-score is 67%. Notably, some clients even have better F1-scores in the case study, specifically clients with IDs: 2, 7, 9, 10, 11, 12, 14, 17, 19, 21, and 22. As a result, 11 out of 24 clients obtained better performance compared to FedFitTech. </p>
+<p align="justify"> Figure 6 depicts the client-based F1-score changes. FedFitTech achieved a mean F1-score of 68% overall for clients, while the early stopping case study's mean F1-score is 67%. Notably, some clients even have better F1-scores in the case study, specifically clients with IDs: 2, 7, 9, 10, 11, 12, 14, 17, 19, 21, and 22. As a result, 11 out of 24 clients obtained better performance compared to FedFitTech. </p>
 
 <p align="justify">
-Figures 4 and 5 depict the label-based F1-scores for the FedFitTech baseline and the case study, respectively. The actual label names in these figures are as follows:</p>
+Figures 7 and 8 depict the label-based F1-scores for the FedFitTech baseline and the case study, respectively. The actual label names in these figures are as follows:</p>
 
 <p align="center">
   <img src="FedFitTech/Results_to_compare/clients_vs_label_F1_scores_heatmaps_Normal.svg" width="49%" />
   <img src="FedFitTech/Results_to_compare/clients_vs_label_F1_scores_heatmaps_Early_Stopping.svg" width="49%" />
 </p>
 <p align="center">
-  <em>Figure 1 (Client-Label Based F1-Scores of the FedFitTech), Figure 2 (Client-Label Based F1-Scores of the Case Study)</em>
+  <em>Figure 7 (Client-Label Based F1-Scores of the FedFitTech), Figure 8 (Client-Label Based F1-Scores of the Case Study)</em>
 </p>
 
 <p align="justify">
@@ -353,7 +359,6 @@ S: Bench-dips
  </p>
 
 
- **2.5 Early stopping Strategy:** <p align="justify"> Our case study focuses on the FitTech domain and employs early stopping based on the validation F1-score over a sliding window. Although simple to implement, this method ensures that the global model retains valuable patterns from all clients, including those with limited generalization capability.</p>
 
 > [!NOTE]
 > If you use this baseline in your work, please remember to cite the original authors of the paper as well as the Flower paper.
