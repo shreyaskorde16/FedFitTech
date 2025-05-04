@@ -9,22 +9,22 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 import os
-from Results_to_compare.results_ploting_utils import *
+from results_ploting_utils import *
 
 # Files paths - Global rounds vs Clients [F1 scores]
-ES_f1_vs_round_path = "Results_to_compare/dataframes/Validation_F1_Scores_vs_rounds_with_EA.csv"
-NORMAL_f1_vs_round_path = "Results_to_compare/dataframes/Validation_F1_Scores_vs_rounds_normal.csv"
+ES_f1_vs_round_path = "./dataframes/Validation_F1_Scores_vs_rounds_with_EA.csv"
+NORMAL_f1_vs_round_path = "./dataframes/Validation_F1_Scores_vs_rounds_normal.csv"
 
 
 
 # Distributed metrics datafram
-ES_distributed_metrics_path = "Results_to_compare/dataframes/Client_Distributed_Metrics_100_round_with_EA.csv"
-Normal_distributed_metrcs_path = "Results_to_compare/dataframes/Client_Distributed_Metrics_100_round_normal.csv"
+ES_distributed_metrics_path = "./dataframes/Client_Distributed_Metrics_100_round_with_EA.csv"
+Normal_distributed_metrcs_path = "./dataframes/Client_Distributed_Metrics_100_round_normal.csv"
 
 
 # Clients labels f1 scores
-ES_client_vs_labels_f1scores_path = "Results_to_compare/dataframes/Client_vs_label_F1scores_100_round_with_EA.csv"
-NORMAL_client_vs_labels_f1scores_path = "Results_to_compare/dataframes/Client_vs_label_F1scores_100_round_normal.csv"
+ES_client_vs_labels_f1scores_path = "./dataframes/Client_vs_label_F1scores_100_round_with_EA.csv"
+NORMAL_client_vs_labels_f1scores_path = "./dataframes/Client_vs_label_F1scores_100_round_normal.csv"
 
 
 # Dataframes Global rounds vs Clients [F1 scores]
@@ -60,6 +60,9 @@ df_distributed_metrics_for_plot1= pd.DataFrame(data_1)   # bar plot two f1 score
 data_3 = {"Client_Id": Df_ES_dist_metric["Client_Id"], "F1_score_ES": Df_ES_dist_metric["Validation F1 score"], 
           "F1_score_Normal": Normal_dist_metr["Validation F1 score"], "Training stop round": Df_ES_dist_metric["Training stop round"]}
 
+# plot baseline f1 scores
+data_4 = {"Client_Id": Normal_dist_metr["Client_Id"], "F1_score_Normal": Normal_dist_metr["Validation F1 score"]}
+
 
 # To plot the compuatation saved bar plot
 df_distributed_metrics_for_plot3 = pd.DataFrame(data_3) 
@@ -67,9 +70,11 @@ df_distributed_metrics_for_plot3 = pd.DataFrame(data_3)
 
 
 # Function to plot the Barcharts, linegraph, Heatmaps
-plot_f1_scores_comparison(df_distributed_metrics_for_plot1)
+plot_f1_scores_baseline(data_4)
 
-#plot_f1_convergence(Df_ES_f1_vs_round)
+#plot_f1_scores_comparison(df_distributed_metrics_for_plot1)
+
+#plot_f1_convergence(Df_NORMAL_f1_vs_round)
 
 #plot_f1_convergence_with_stop_round(Df_ES_f1_vs_round, df_distributed_metrics_for_plot3)
 #
