@@ -161,7 +161,7 @@ FedFitTech/
 │   ├── inertial_data/                      # Data subjectwise
 │   │   └── *.csv  
 │   ├── client_app.py                       # Defines ClientApp
-│   ├── my_strategy.py                      # Defines custom strategy for ServerApp
+│   ├── my_strategy.py                      # Defines custom FedAvg strategy for ServerApp
 │   ├── server_app.py                       # Defines ServerApp
 │   └── task.py                                          
 ├── pyproject.toml                          # Project metadata like dependencies and configs
