@@ -197,7 +197,7 @@ flwr run .
 **6.1 FedFitTech Result**
 
 <p align="justify">
-This repository contains the necessary code and resources to reproduce the baseline results presented in the experimental section of the original paper: FedFitTech. Note that values such as F1 scores and server rounds may vary slightly due to differences in hardware, software environments, and random initialization. For a comprehensive overview, detailed illustrations of the graphs and results are provided below. All graphs and results are conveniently stored in the `FedFitTech/config/base.yaml` directory.
+This repository contains the necessary code and resources to reproduce the baseline results presented in the experimental section of the original paper: FedFitTech. Note that values such as F1 scores and server rounds may vary slightly due to differences in hardware, software environments, and random initialization. For a comprehensive overview, detailed illustrations of the graphs and results are provided below.
 </p>
 
 > \[!Note\]
@@ -222,10 +222,11 @@ Figure 3 illustrates the Convergence of the F1 score over 100 global rounds for 
 
 **6.2 Implementation of FedFitTech case study (With Early stopping)** 
 
-<p align="justify"> The **FedFitTech case study** presents an improved version of FedFitTech, where clients stop learning once they have converged, enhancing efficiency. To
+<p align="justify"> The FedFitTech case study presents an improved version of FedFitTech, where clients stop learning once they have converged, enhancing efficiency.
 </p>
 
-<p align="justify"> To perform an experiment with the case study, you just need to change the `Early Stopping` flag in the configuration file located at `FedFitTech/config/base.yaml`. The updated hyperparameters will be as shown below. </p>
+> \[!Tip\]
+> To perform an experiment with the case study, you just need to change the `Early Stopping` flag in the configuration file located at `FedFitTech/config/base.yaml`. The updated hyperparameters will be as shown below. 
 
 
 | Description | Value |
