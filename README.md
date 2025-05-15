@@ -319,7 +319,7 @@ Config records for Client Id 18: Best Validatio F1 score 0.750440226645707, Coun
 
   **7.4.1 Communication Cost**
 
-<p align="justify"> Figure 4 illustrates that Notably, 9 out of 24 clients stopped training the global model early, with the earliest stop at round 40 and some clients stopping after more than 80 rounds. This highlights that prolonged participation does not guarantee continued benefit. </p>
+<p align="justify"> Figure 5 illustrates that Notably, 9 out of 24 clients stopped training the global model early, with the earliest stop at round 40 and some clients stopping after more than 80 rounds. This highlights that prolonged participation does not guarantee continued benefit. </p>
 
 
 
@@ -332,7 +332,7 @@ Config records for Client Id 18: Best Validatio F1 score 0.750440226645707, Coun
 
 
 <p align="justify">
-Figure 5 illustrates that some clients did not improve their local F1-score even after 30 rounds of training. Despite some clients being dropped, the overall global model F1-score continued to increase, as shown by the black dashed line.
+Figure 6 illustrates that some clients did not improve their local F1-score even after 30 rounds of training. Despite some clients being dropped, the overall global model F1-score continued to increase, as shown by the black dashed line.
 </p>
 
 <p align="center">
@@ -345,7 +345,7 @@ Figure 5 illustrates that some clients did not improve their local F1-score even
 
   **7.4.2 Model Performance**
 
-<p align="justify"> Figure 6 shows the difference of F1-score (y-axis) over clients(x-axis) </p>
+<p align="justify"> Figure 7 shows the difference of F1-score (y-axis) over clients(x-axis) </p>
 
 <p align="center">
   <img src="FedFitTech/Results_to_compare/F1_scores_comparison_double_bar_plot.svg" width="85%" />
@@ -354,7 +354,7 @@ Figure 5 illustrates that some clients did not improve their local F1-score even
   <em>Figure 7: F1-Score Comparison: FedFitTech vs. Case Study </em>
 </p>
 
-<p align="justify"> Figure 6 depicts the client-based F1-score changes. FedFitTech achieved a mean F1-score of 68% overall for clients, while the early stopping case study's mean F1-score is 67%. Notably, some clients even have better F1-scores in the case study, specifically clients with IDs: 2, 7, 9, 10, 11, 12, 14, 17, 19, 21, and 22. As a result, 11 out of 24 clients obtained better performance compared to FedFitTech. </p>
+<p align="justify"> Figure 7 depicts the client-based F1-score changes. FedFitTech achieved a mean F1-score of 68% overall for clients, while the early stopping case study's mean F1-score is 67%. Notably, some clients even have better F1-scores in the case study, specifically clients with IDs: 2, 7, 9, 10, 11, 12, 14, 17, 19, 21, and 22. As a result, 11 out of 24 clients obtained better performance compared to FedFitTech. </p>
 
 <p align="justify">
 Figures 8 and 9 depict the label-based F1-scores for the FedFitTech baseline and the case study, respectively. The actual label names in these figures are as follows:</p>
