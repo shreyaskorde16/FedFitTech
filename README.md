@@ -61,7 +61,7 @@ Dataset:
 **2.1 Task:** Human Activity Recognition
 
 
-### <img src="https://icons8.com/icon/RpMNMbjkKjh7/external-machine-learning-machine-learning-icon-smashingstocks-basic-outline-smashing-stocks-20" width="20"/>  Model:
+### <img src="https://img.icons8.com/?size=160&id=RpMNMbjkKjh7&format=png" width="20"/>  Model:
 <p align="justify"> TinyHAR, which is a lightweight deep learning model designed for Human Activity Recognition (HAR) tasks. This model architecture achieves competitive performance with fewer parameters, making it suitable for resource-constrained devices.</p>
 
 
