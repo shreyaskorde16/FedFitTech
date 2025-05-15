@@ -94,7 +94,7 @@ Dataset:
 | Early Stopping | False |
 
 
-## 3️⃣ 🧰 Envirnnomental Setup
+## 3️⃣ <img src="https://img.icons8.com/?size=100&id=OFgMZm7d0cdn&format=png&color=000000" width="24"/> Envirnnomental Setup
 
 **3.1 Clone Repository**
 
