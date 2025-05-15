@@ -56,7 +56,7 @@ Dataset:
 
 **Contributors**: Shreyas Korde, Zeyneddin Oz, Marius Bock
 
-## 2️⃣ ## <img src="https://img.icons8.com/?size=100&id=N5jTjpBKVT8t&format=png&color=000000" width="24"/> Experimental Setup
+## 2️⃣ <img src="https://img.icons8.com/?size=100&id=N5jTjpBKVT8t&format=png&color=000000" width="24"/> Experimental Setup
 
 **2.1 Task:** Human Activity Recognition
 
