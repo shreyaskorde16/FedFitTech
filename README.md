@@ -31,7 +31,7 @@ Dataset:
 
 
 
-## 1 🚀 About this baseline
+## 1. 🚀 About this baseline
 
 **1.1 What's implemented:** <p align="justify">  The code in this directory provides the FedFitTech baseline, enables reproducible experiments and benchmarking of Fitness Tracking in the Federated Learning setting, as well as a case study of FedFitTech. </p>
 
@@ -56,7 +56,7 @@ Dataset:
 
 **🤝 Contributors**: Shreyas Korde, Zeyneddin Oz, Marius Bock
 
-## 2 ⚙️ Experimental Setup
+## 2. ⚙️ Experimental Setup
 
 **2.1 Task:** Human Activity Recognition
 
@@ -94,7 +94,7 @@ Dataset:
 | Early Stopping | False |
 
 
-## 3 📦 Envirnnomental Setup
+## 3. 📦 Envirnnomental Setup
 
 **3.1 Clone Repository**
 
@@ -152,7 +152,7 @@ pip install torch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1
 pip install -r requirements.txt
 
 ```
-## 4 🗂️ Project Structure
+## 4. 🗂️ Project Structure
 
 
 
@@ -179,7 +179,7 @@ FedFitTech/
 └── README.md
 ```
 
-## 5 🧬 Runing Experiment
+## 5. 🧬 Runing Experiment
 
 
 > \[!TIP\]
@@ -192,7 +192,7 @@ flwr run .
 
 
 
-## 6 📊 Evaluation Results
+## 6. 📊 Evaluation Results
 
 **6.1 FedFitTech Result**
 
@@ -250,7 +250,7 @@ S: Bench-dips
 
 ---
 
-## 7 📚 FedFitTech with Case Study: Client-side Early Stopping
+## 7. 📚 FedFitTech with Case Study: Client-side Early Stopping
 
 **7.1 Early stopping Strategy:** <p align="justify"> Our case study focuses on the FitTech domain and employs early stopping based on the validation F1-score over a sliding window. Although simple to implement, this method ensures that the global model retains valuable patterns from all clients, including those with limited generalization capability.</p>
 
@@ -399,11 +399,11 @@ S: Bench-dips
 
 ### For any questions, feel free to contact us via email.
 
-** 📬 Contact Information**
+**📬 Contact Information**
 
-Shreyas Korde: shreyas.korde@student.uni-siegen.de
+Shreyas Korde: 📧 shreyas.korde@student.uni-siegen.de
 
-Zeyneddin Oz: zeyneddin.oez@uni-siegen.de
+Zeyneddin Oz: 📧 zeyneddin.oez@uni-siegen.de
 
-Marius Bock: marius.bock@uni-siegen.de
+Marius Bock: 📧 marius.bock@uni-siegen.de
 
