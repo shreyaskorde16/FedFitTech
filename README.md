@@ -9,11 +9,11 @@ Dataset:
   - "https://mariusbock.github.io/wear/"
 ---
 
-# FedFitTech: A Baseline in Federated Learning for Fitness Tracking
+# 🌟 FedFitTech: A Baseline in Federated Learning for Fitness Tracking
 
 <p align="justify">  This repository introduces FedFitTech, which is a Federated Learning baseline specifically designed for Fitness Technology (FitTech) using the Flower framework, enabling reproducible experiments and benchmarking. As an example usage of FedFitTech, we also included a case study that incorporates a client-side early stopping strategy.  </p>
 
-**Paper:** [link]((https://arxiv.org)
+**📚 Paper:** [link]((https://arxiv.org)
 
 **🙋‍♂️ Author** [Zeyneddin Oz](https://orcid.org/0000-0002-4216-9854), [Shreyas Korde](https://orcid.org/0009-0000-3771-3096), [Marius Bock](https://orcid.org/0000-0001-7401-928X), [Kristof Van Laerhoven](https://orcid.org/0000-0001-5296-5347)
 
@@ -31,7 +31,7 @@ Dataset:
 
 
 
-## 1 About this baseline
+## 1️⃣ 📌 About this baseline
 
 **1.1 What's implemented:** <p align="justify">  The code in this directory provides the FedFitTech baseline, enables reproducible experiments and benchmarking of Fitness Tracking in the Federated Learning setting, as well as a case study of FedFitTech. </p>
 
@@ -46,7 +46,7 @@ Dataset:
 
 
 
-**1.3 Hardware Setup:** <p align="justify">  The experiments were conducted on a machine equipped with 32 GB RAM, 14 CPU cores, and an Nvidia RTX 3060 GPU with 6 GB of VRAM.
+**1.3 💻 Hardware Setup:** <p align="justify">  The experiments were conducted on a machine equipped with 32 GB RAM, 14 CPU cores, and an Nvidia RTX 3060 GPU with 6 GB of VRAM.
 </p>
 
 > [!NOTE]
@@ -56,12 +56,12 @@ Dataset:
 
 **Contributors**: Shreyas Korde, Zeyneddin Oz, Marius Bock
 
-## 2 Experimental Setup
+## 2️⃣ Experimental Setup
 
 **2.1 Task:** Human Activity Recognition
 
 
-**2.2 Model:** <p align="justify"> TinyHAR, which is a lightweight deep learning model designed for Human Activity Recognition (HAR) tasks. This model architecture achieves competitive performance with fewer parameters, making it suitable for resource-constrained devices.</p>
+**2.2 🧠 Model:** <p align="justify"> TinyHAR, which is a lightweight deep learning model designed for Human Activity Recognition (HAR) tasks. This model architecture achieves competitive performance with fewer parameters, making it suitable for resource-constrained devices.</p>
 
 
 **2.3 Data splitting:** <p align="justify">In the WEAR dataset, participants perform the same activities multiple times across different time periods to simulate realistic scenarios. This variability means that activity patterns can change over time due to factors like fatigue, weather conditions, and ground changes. To account for this, the dataset is split such that the first 20% of each labeled activity in the time series is used for testing, and the remaining 80% is used for training. This approach ensures that the testing data includes varied patterns, such as a person jogging both at the beginning and later in the exercise session.</p>
@@ -94,7 +94,7 @@ Dataset:
 | Early Stopping | False |
 
 
-## 3 Envirnnomental Setup
+## 3️⃣ 🧰 Envirnnomental Setup
 
 **3.1 Clone Repository**
 
@@ -152,7 +152,7 @@ pip install torch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1
 pip install -r requirements.txt
 
 ```
-## 4 Project Structure
+## 4️⃣ 🗂️ Project Structure
 
 
 
