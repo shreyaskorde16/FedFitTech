@@ -219,7 +219,38 @@ Figure 3 illustrates the Convergence of the F1 score over 100 global rounds for 
   <em>Figure 3: Convergence of the F1 score over 100 global rounds for the FedFitTech baseline.</em>
 </p>
 
-## 7 FedFitTech with Case Study: Client-wise Early Stopping
+Figures 4 depict the label-based F1-scores for the FedFitTech baseline. The actual label names in these figures are as follows:</p>
+<p align="center">
+  <img src="FedFitTech/Results_to_compare/clients_vs_label_F1_scores_heatmaps_Normal.svg" width="85%" />
+</p>
+<p align="center">
+  <em>Figure 4 (Client-Label Based F1-Scores of the FedFitTech)</em>
+</p>
+<p align="justify">
+A: NULL
+B: Jogging
+C: Jogging (rotating arms)
+D: Jogging (skipping)
+E: Jogging (sidesteps)
+F: Jogging (butt-kicks)
+G: Stretching (triceps)
+H: Stretching (lunging)
+I: Stretching (shoulders)
+J: Stretching (hamstrings)
+K: Stretching (lumbar rotation)
+L: Push-ups
+M: Push-ups (complex)
+N: Sit-ups
+O: Sit-ups (complex)
+P: Burpees
+Q: Lunges
+R: Lunges (complex)
+S: Bench-dips
+ </p>
+
+---
+
+## 7 FedFitTech with Case Study: Client-side Early Stopping
 
 **7.1 Early stopping Strategy:** <p align="justify"> Our case study focuses on the FitTech domain and employs early stopping based on the validation F1-score over a sliding window. Although simple to implement, this method ensures that the global model retains valuable patterns from all clients, including those with limited generalization capability.</p>
 
@@ -296,7 +327,7 @@ Config records for Client Id 18: Best Validatio F1 score 0.750440226645707, Coun
   <img src="FedFitTech/Results_to_compare/Global_rounds_vs_clients_single_bar_plot.svg" width="85%" />
 </p>
 <p align="center">
-  <em>Figure 4: The figure shows the number of training rounds each client attended in the case study. The Y-axis represents the F1-score, and the X-axis represents client IDs. Red indicates communication cost, green shows saved communication rounds, and the dashed black line is the mean. </em>
+  <em>Figure 5: The figure shows the number of training rounds each client attended in the case study. The Y-axis represents the F1-score, and the X-axis represents client IDs. Red indicates communication cost, green shows saved communication rounds, and the dashed black line is the mean. </em>
 </p>
 
 
@@ -308,7 +339,7 @@ Figure 5 illustrates that some clients did not improve their local F1-score even
   <img src="FedFitTech/Results_to_compare/F1_scores_convergence_with_early_stopping_linegraph.svg" alt="Figure 2" width="85%" />
 </p>
 <p align="center">
-  <em> Figure 5: Communication rounds (X-axis) vs. F1-scores (Y-axis). The dashed black line shows the mean values of all local performances, and triangles depict early-stopped clients' rounds. </em>
+  <em> Figure 6: Communication rounds (X-axis) vs. F1-scores (Y-axis). The dashed black line shows the mean values of all local performances, and triangles depict early-stopped clients' rounds. </em>
 </p>
 
 
@@ -320,20 +351,20 @@ Figure 5 illustrates that some clients did not improve their local F1-score even
   <img src="FedFitTech/Results_to_compare/F1_scores_comparison_double_bar_plot.svg" width="85%" />
 </p>
 <p align="center">
-  <em>Figure 6: F1-Score Comparison: FedFitTech vs. Case Study </em>
+  <em>Figure 7: F1-Score Comparison: FedFitTech vs. Case Study </em>
 </p>
 
 <p align="justify"> Figure 6 depicts the client-based F1-score changes. FedFitTech achieved a mean F1-score of 68% overall for clients, while the early stopping case study's mean F1-score is 67%. Notably, some clients even have better F1-scores in the case study, specifically clients with IDs: 2, 7, 9, 10, 11, 12, 14, 17, 19, 21, and 22. As a result, 11 out of 24 clients obtained better performance compared to FedFitTech. </p>
 
 <p align="justify">
-Figures 7 and 8 depict the label-based F1-scores for the FedFitTech baseline and the case study, respectively. The actual label names in these figures are as follows:</p>
+Figures 8 and 9 depict the label-based F1-scores for the FedFitTech baseline and the case study, respectively. The actual label names in these figures are as follows:</p>
 
 <p align="center">
   <img src="FedFitTech/Results_to_compare/clients_vs_label_F1_scores_heatmaps_Normal.svg" width="49%" />
   <img src="FedFitTech/Results_to_compare/clients_vs_label_F1_scores_heatmaps_Early_Stopping.svg" width="49%" />
 </p>
 <p align="center">
-  <em>Figure 7 (Client-Label Based F1-Scores of the FedFitTech), Figure 8 (Client-Label Based F1-Scores of the Case Study)</em>
+  <em>Figure 8 (Client-Label Based F1-Scores of the FedFitTech), Figure 9 (Client-Label Based F1-Scores of the Case Study)</em>
 </p>
 
 <p align="justify">
@@ -372,7 +403,7 @@ S: Bench-dips
 
 Shreyas Korde: shreyas.korde@student.uni-siegen.de
 
-Zeyneddin Oz: Zeyneddin.Oez@uni-siegen.de
+Zeyneddin Oz: zeyneddin.oez@uni-siegen.de
 
-Marius Bock: Marius.Bock@uni-siegen.de
+Marius Bock: marius.bock@uni-siegen.de
 
