@@ -401,9 +401,9 @@ S: Bench-dips
 
 **📬 Contact Information**
 
-Shreyas Korde: 📧 shreyas.korde@student.uni-siegen.de
+📧 Shreyas Korde: shreyas.korde@student.uni-siegen.de
 
-Zeyneddin Oz: 📧 zeyneddin.oez@uni-siegen.de
+📧 Zeyneddin Oz: zeyneddin.oez@uni-siegen.de
 
-Marius Bock: 📧 marius.bock@uni-siegen.de
+📧 Marius Bock: marius.bock@uni-siegen.de
 
