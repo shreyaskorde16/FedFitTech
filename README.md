@@ -61,7 +61,8 @@ Dataset:
 **2.1 Task:** Human Activity Recognition
 
 
-** <img src="[https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/python.svg](https://icons8.com/icon/RpMNMbjkKjh7/external-machine-learning-machine-learning-icon-smashingstocks-basic-outline-smashing-stocks-20)" width="20"/>  Model:** <p align="justify"> TinyHAR, which is a lightweight deep learning model designed for Human Activity Recognition (HAR) tasks. This model architecture achieves competitive performance with fewer parameters, making it suitable for resource-constrained devices.</p>
+### <img src="https://icons8.com/icon/RpMNMbjkKjh7/external-machine-learning-machine-learning-icon-smashingstocks-basic-outline-smashing-stocks-20" width="20"/>  Model:
+<p align="justify"> TinyHAR, which is a lightweight deep learning model designed for Human Activity Recognition (HAR) tasks. This model architecture achieves competitive performance with fewer parameters, making it suitable for resource-constrained devices.</p>
 
 
 **2.3 Data splitting:** <p align="justify">In the WEAR dataset, participants perform the same activities multiple times across different time periods to simulate realistic scenarios. This variability means that activity patterns can change over time due to factors like fatigue, weather conditions, and ground changes. To account for this, the dataset is split such that the first 20% of each labeled activity in the time series is used for testing, and the remaining 80% is used for training. This approach ensures that the testing data includes varied patterns, such as a person jogging both at the beginning and later in the exercise session.</p>
