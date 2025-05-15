@@ -31,7 +31,7 @@ Dataset:
 
 
 
-## 1 📌 About this baseline
+## 1 🚀 About this baseline
 
 **1.1 What's implemented:** <p align="justify">  The code in this directory provides the FedFitTech baseline, enables reproducible experiments and benchmarking of Fitness Tracking in the Federated Learning setting, as well as a case study of FedFitTech. </p>
 
