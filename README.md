@@ -54,7 +54,7 @@ Dataset:
   
 > Although it is not compulsory to use a GPU for training the TinyHAR model, as it can be efficiently trained on a CPU with minimal computation time, more complex models like DeepConvLSTM, typically used for Human Activity Recognition (HAR) tasks, often require a GPU to achieve reasonable training times.  </p>
 
-**<img src="https://img.icons8.com/?size=100&id=TqYI4WnBYInE&format=png&color=000000" width="18"/> Contributors**: Shreyas Korde, Zeyneddin Oz, Marius Bock
+**👥 Contributors**: Shreyas Korde, Zeyneddin Oz, Marius Bock
 
 ## 2 <img src="https://img.icons8.com/?size=100&id=N5jTjpBKVT8t&format=png&color=000000" width="18"/> Experimental Setup
 
