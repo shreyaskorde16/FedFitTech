@@ -54,14 +54,14 @@ Dataset:
   
 > Although it is not compulsory to use a GPU for training the TinyHAR model, as it can be efficiently trained on a CPU with minimal computation time, more complex models like DeepConvLSTM, typically used for Human Activity Recognition (HAR) tasks, often require a GPU to achieve reasonable training times.  </p>
 
-**👥 Contributors**: Shreyas Korde, Zeyneddin Oz, Marius Bock
+**🤝 Contributors**: Shreyas Korde, Zeyneddin Oz, Marius Bock
 
-## 2 <img src="https://img.icons8.com/?size=100&id=N5jTjpBKVT8t&format=png&color=000000" width="18"/> Experimental Setup
+## 2 ⚙️ Experimental Setup
 
 **2.1 Task:** Human Activity Recognition
 
 
-**2.2 Model:** <p align="justify"> TinyHAR, which is a lightweight deep learning model designed for Human Activity Recognition (HAR) tasks. This model architecture achieves competitive performance with fewer parameters, making it suitable for resource-constrained devices.</p>
+**2.2 🧠 Model:** <p align="justify"> TinyHAR, which is a lightweight deep learning model designed for Human Activity Recognition (HAR) tasks. This model architecture achieves competitive performance with fewer parameters, making it suitable for resource-constrained devices.</p>
 
 
 **2.3 Data splitting:** <p align="justify">In the WEAR dataset, participants perform the same activities multiple times across different time periods to simulate realistic scenarios. This variability means that activity patterns can change over time due to factors like fatigue, weather conditions, and ground changes. To account for this, the dataset is split such that the first 20% of each labeled activity in the time series is used for testing, and the remaining 80% is used for training. This approach ensures that the testing data includes varied patterns, such as a person jogging both at the beginning and later in the exercise session.</p>
@@ -74,7 +74,7 @@ Dataset:
 
 **2.5 FedFitTech Baseline:** <p align="justify"> FedFitTech Baseline is your foundational setup for fitness technology applications using Federated Learning (FL). To get started, use the default hyperparameters provided, which ensure a stable starting point for your experiments. Feel free to explore different configurations by adjusting these hyperparameters to optimize performance and achieve better results tailored to your specific needs.  </p>
     
-**2.6 FL Trainig Hyperparameters:** <p align="justify">By default, the main hyperparameters used are shown in the table below. For a complete list of hyperparameters, please refer to the configuration file in `FedFitTech/config/base.yaml`.</p>
+**2.6 ⚙️ FL Trainig Hyperparameters:** <p align="justify">By default, the main hyperparameters used are shown in the table below. For a complete list of hyperparameters, please refer to the configuration file in `FedFitTech/config/base.yaml`.</p>
 
 
 | Description | Value |
@@ -94,7 +94,7 @@ Dataset:
 | Early Stopping | False |
 
 
-## 3️⃣ <img src="https://img.icons8.com/?size=100&id=OFgMZm7d0cdn&format=png&color=000000" width="24"/> Envirnnomental Setup
+## 3 📦 Envirnnomental Setup
 
 **3.1 Clone Repository**
 
@@ -152,7 +152,7 @@ pip install torch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1
 pip install -r requirements.txt
 
 ```
-## 4️⃣ 🗂️ Project Structure
+## 4 🗂️ Project Structure
 
 
 
@@ -179,7 +179,7 @@ FedFitTech/
 └── README.md
 ```
 
-## 5 Runing Experiment
+## 5 🧬 Runing Experiment
 
 
 > \[!TIP\]
@@ -192,7 +192,7 @@ flwr run .
 
 
 
-## 6 Evaluation Results
+## 6 📊 Evaluation Results
 
 **6.1 FedFitTech Result**
 
@@ -250,7 +250,7 @@ S: Bench-dips
 
 ---
 
-## 7 FedFitTech with Case Study: Client-side Early Stopping
+## 7 📚 FedFitTech with Case Study: Client-side Early Stopping
 
 **7.1 Early stopping Strategy:** <p align="justify"> Our case study focuses on the FitTech domain and employs early stopping based on the validation F1-score over a sliding window. Although simple to implement, this method ensures that the global model retains valuable patterns from all clients, including those with limited generalization capability.</p>
 
@@ -399,7 +399,7 @@ S: Bench-dips
 
 ### For any questions, feel free to contact us via email.
 
-**Contact Information**
+** 📬 Contact Information**
 
 Shreyas Korde: shreyas.korde@student.uni-siegen.de
 
