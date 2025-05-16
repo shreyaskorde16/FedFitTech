@@ -56,7 +56,7 @@ Dataset:
 
 **🤝 Contributors**: Shreyas Korde, Zeyneddin Oz, Marius Bock
 
-## 2. 🔬 Experimental Setup
+## 2. 🖥️ Experimental Setup
 
 **2.1 🎯  Task:** Human Activity Recognition
 
@@ -179,7 +179,7 @@ FedFitTech/
 └── README.md
 ```
 
-## 5. 🧬 Runing Experiment
+## 5. 🧩 Runing Experiment
 
 
 > \[!TIP\]
