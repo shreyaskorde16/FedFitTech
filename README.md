@@ -357,14 +357,14 @@ Figure 6 illustrates that some clients did not improve their local F1-score even
 <p align="justify"> Figure 7 depicts the client-based F1-score changes. FedFitTech achieved a mean F1-score of 68% overall for clients, while the early stopping case study's mean F1-score is 67%. Notably, some clients even have better F1-scores in the case study, specifically clients with IDs: 2, 7, 9, 10, 11, 12, 14, 17, 19, 21, and 22. As a result, 11 out of 24 clients obtained better performance compared to FedFitTech. </p>
 
 <p align="justify">
-Figures 8 and 9 depict the label-based F1-scores for the FedFitTech baseline and the case study, respectively. The actual label names in these figures are as follows:</p>
+Figures 4 and 8 depict the label-based F1-scores for the FedFitTech baseline and the case study, respectively. The actual label names in these figures are as follows:</p>
 
 <p align="center">
   <img src="FedFitTech/Results_to_compare/clients_vs_label_F1_scores_heatmaps_Normal.svg" width="49%" />
   <img src="FedFitTech/Results_to_compare/clients_vs_label_F1_scores_heatmaps_Early_Stopping.svg" width="49%" />
 </p>
 <p align="center">
-  <em>Figure 8 (Client-Label Based F1-Scores of the FedFitTech), Figure 9 (Client-Label Based F1-Scores of the Case Study)</em>
+  <em>Figure 4 (Client-Label Based F1-Scores of the FedFitTech), Figure 8 (Client-Label Based F1-Scores of the Case Study)</em>
 </p>
 
 <p align="justify">
