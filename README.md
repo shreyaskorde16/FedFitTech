@@ -106,6 +106,9 @@ git clone ...
 > \[!TIP\]
 > The structure of the project has explained below.
 
+> [!NOTE]
+> If you don't have miniconda installed then you can visit [Miniconda Installation](https://www.anaconda.com/docs/getting-started/miniconda/install#macos-linux-installation:how-do-i-verify-my-installers-integrity)
+
 Create Anaconda environment
 ```
 conda create -n fedfittech python==3.10
