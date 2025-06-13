@@ -108,7 +108,7 @@ git clone ...
 
 Create Anaconda environment
 ```
-conda create -n fedfittech python==3.11.11
+conda create -n fedfittech python==3.10
 ```
 ```
 conda activate fedfittech
@@ -125,25 +125,10 @@ conda activate fedfittech
 
 **3.3 ⬇️  Install PyTorch distribution**
 ```
-conda install pytorch==2.5.1 torchvision==0.20.1 pytorch-cuda=12.4 -c pytorch -c nvidia
+pip install flwr[simulation] flwr-datasets[vision] torch torchvision
 
 ```
 
-**OR** To install the dependencies locally using `pip` with CUDA 12.4, you can use the following command:
-
-
-```
-pip install torch==2.5.1+cu124 torchvision==0.20.1+cu124 --extra-index-url https://download.pytorch.org/whl/cu124
-```
-**OR** Run this command **only**, If cuda 12.4 not compatible:
-
-```  
-conda install pytorch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 pytorch-cuda -c pytorch -c nvidia
-```
-**OR** Run this command using **pip only**, If cuda 12.4 not compatible:
-```
-pip install torch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1
-```
 > \[!TIP\]
 > For more information related to **PyTorch Cuda** visit [Start Locally PyTorch](https://pytorch.org/get-started/locally/)
 
