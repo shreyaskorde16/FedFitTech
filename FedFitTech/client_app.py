@@ -26,7 +26,7 @@ class FlowerClient(NumPyClient):
         self.trainloader = trainloader[0]
         self.valloader = valloader[0]
         self.patience = 5
-        self.threshold = 0.005
+        self.threshold = 0.01
         self.f1_target = 0.69
         self.DEVICE = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
         print(f"Cuda is available for client = {torch.cuda.is_available()}")

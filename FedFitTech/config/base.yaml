@@ -18,5 +18,5 @@ labels_set: {'NULL': 0, 'jogging': 1, 'jogging (rotating arms)': 2, 'jogging (sk
             'bench-dips': 18}
 fraction_fit: 1.0
 fraction_evaluate: 1.0
-Early_stopping: '1'  # '1'= Yes, '0' = No
+Early_stopping: '0'  # '1'= Yes, '0' = No
 
