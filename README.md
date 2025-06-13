@@ -97,10 +97,9 @@ Dataset:
 ## 3. 📦 Envirnnomental Setup
 
 **3.1 🪞 Clone Repository**
-
-
+Change the working directory to FedFitTech where project.toml is located.
 ```
-git clone ...
+cd baselies/FedFitTech
 ```
 
 > \[!TIP\]
