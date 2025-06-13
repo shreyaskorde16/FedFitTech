@@ -1,7 +1,6 @@
 scikit-learn==1.6.1
-flwr==1.15.0
+flwr==1.18.0
 scikit-learn==1.6.1
-flwr==1.15.0
 pandas==2.2.3
 scikit-learn==1.6.1
 matplotlib==3.10.0

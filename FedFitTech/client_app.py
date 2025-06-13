@@ -1,4 +1,4 @@
-"""new-flwr-wear: A Flower / PyTorch app."""
+"""FedFitTech: A Flower / PyTorch app."""
 
 import torch
 import sys
@@ -32,9 +32,9 @@ class FlowerClient(NumPyClient):
         print(f"Cuda is available for client = {torch.cuda.is_available()}")
         
         self.client_state = (context.state) # add a reference to the state of ClientApp to track best_f1_score and has_converged_flag
-        if "early_stop_metrics" not in self.client_state.configs_records:
-            self.client_state.configs_records["early_stop_metrics"] = ConfigsRecord()
-            context_early_stop = self.client_state.configs_records["early_stop_metrics"] 
+        if "early_stop_metrics" not in self.client_state:
+            self.client_state["early_stop_metrics"] = ConfigsRecord()
+            context_early_stop = self.client_state["early_stop_metrics"] 
             context_early_stop["context_best_val_f1_score"] = 0.0
             context_early_stop["counter"] = 0
             context_early_stop["has_converged"] = False
@@ -50,7 +50,7 @@ class FlowerClient(NumPyClient):
         
         server_round = config.get("server_round", 0) 
         set_weights(self.net, parameters)
-        context_early_stop = self.client_state.configs_records["early_stop_metrics"] 
+        context_early_stop = self.client_state["early_stop_metrics"] 
         
         config_reco_msg = f"Config records for Client Id {self.cfg.sub_id}: " \
                     f"Best Validation F1 score {context_early_stop['context_best_val_f1_score']}, " \
@@ -118,7 +118,7 @@ class FlowerClient(NumPyClient):
     def evaluate(self, parameters, config):
         server_round = config.get("server_round", 0)
         set_weights(self.net, parameters)
-        context_early_stop = self.client_state.configs_records["early_stop_metrics"] 
+        context_early_stop = self.client_state["early_stop_metrics"] 
         
         loss, accuracy, precision, recall, fscore = evaluation_functions.evaluate_model(model=self.net,
                                                                                         testloader=self.valloader,

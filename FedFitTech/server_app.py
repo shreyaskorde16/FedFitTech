@@ -1,4 +1,4 @@
-"""new-flwr-wear: A Flower / PyTorch app."""
+"""FedFitTech: A Flower / PyTorch app."""
 
 from flwr.common import Context, ndarrays_to_parameters, ConfigsRecord, RecordSet
 from flwr.server import ServerApp, ServerAppComponents, ServerConfig

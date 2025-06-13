@@ -2,7 +2,7 @@
 min_available_clients: 10    
 Total_Clients: 24
 LEARNING_RATE: 0.001 # 0.3 | 0.1 | 0.01 | 0.001 | # 0.0001
-LOCAL_EPOCH: 15 # 1 | 2 | 4 | 8 | 16
+LOCAL_EPOCH: 1 # 1 | 2 | 4 | 8 | 16
 BATCH_SIZE: 32 # 8 | 16 | 32 | 64 | 128
 OPTIMIZER: 'Adam' # 'SGD' | 'Adam'
 WINDOW_SIZE: 100 # 50, 100
