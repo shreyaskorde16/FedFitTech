@@ -166,3 +166,4 @@ cython_debug/
 .fedfittech/Flower_log
 .fedfittech/Early_stopping_logs
 .fedfittech/inertial_data
+./inertial_data
