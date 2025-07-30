@@ -130,15 +130,10 @@ venv/
 ENV/
 env.bak/
 venv.bak/
-.inertial_data/
+
 # Spyder project settings
 .spyderproject
 .spyproject
-.Flower_log/
-Flower_log/
-.Early_stopping_logs/
-Early_stopping_logs/
-new-flwr-wear/new_flwr_wear/inertial_data/
 
 # Rope project settings
 .ropeproject
@@ -160,14 +155,14 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
-
-# Log files
-.FedFitTech/Flower_log
-.FedFitTech/Early_stopping_logs
-
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
 #  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+
+# Log files
+.fedfittech/Flower_log
+.fedfittech/Early_stopping_logs
+.fedfittech/inertial_data
