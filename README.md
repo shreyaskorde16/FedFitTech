@@ -54,7 +54,7 @@ Dataset:
   
 > Although it is not compulsory to use a GPU for training the TinyHAR model, as it can be efficiently trained on a CPU with minimal computation time.</p>
 
-**Contributors**: Shreyas Korde, Zeyneddin Oz, Marius Bock
+**Contributors**: Shreyas Korde, Zeyneddin Oez, Marius Bock
 
 ## 2. Experimental Setup
 
