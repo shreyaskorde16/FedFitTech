@@ -15,7 +15,7 @@ Dataset:
 
 **Paper:** [http://arxiv.org/abs/2506.16840](http://arxiv.org/abs/2506.16840)
 
-**Authors** [Zeyneddin Oz](https://orcid.org/0000-0002-4216-9854), [Shreyas Korde](https://orcid.org/0009-0000-3771-3096), [Marius Bock](https://orcid.org/0000-0001-7401-928X), [Kristof Van Laerhoven](https://orcid.org/0000-0001-5296-5347)
+**Authors** [Zeyneddin Oez](https://orcid.org/0000-0002-4216-9854), [Shreyas Korde](https://orcid.org/0009-0000-3771-3096), [Marius Bock](https://orcid.org/0000-0001-7401-928X), [Kristof Van Laerhoven](https://orcid.org/0000-0001-5296-5347)
 
 **Affiliation:** [**University of Siegen**](https://www.uni-siegen.de/start/), [Ubiquitous Computing](https://ubi29.informatik.uni-siegen.de/usi/)
 
