@@ -378,6 +378,6 @@ S: Bench-dips
 
 **Contact Information**
 
-Zeyneddin Oz: zeyneddin.oez@uni-siegen.de
+Zeyneddin Oez: zeyneddin.oez@uni-siegen.de
 
 Shreyas Korde: shreyas.korde@student.uni-siegen.de
