@@ -371,7 +371,15 @@ S: Bench-dips
 > [!NOTE]
 > If you use this baseline in your work, please remember to cite the original authors of the paper as well as the Flower paper.
 
-
+```
+@inproceedings{oz2025fedfittech,
+  title={FedFitTech: A Baseline in Federated Learning for Fitness Tracking},
+  author={Oz, Zeyneddin and Korde, Shreyas and Bock, Marius and Van Laerhoven, Kristof},
+  booktitle={Companion of the 2025 ACM International Joint Conference on Pervasive and Ubiquitous Computing},
+  pages={970--976},
+  year={2025}
+}
+```
 
 
 ### For any questions, feel free to contact us via email.
